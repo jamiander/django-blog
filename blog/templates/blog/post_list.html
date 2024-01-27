@@ -8,9 +8,9 @@
         <h1><a href="">Jamie's Crazy Ramblings</a></h1>
     </header>
     <article>
-
+        {% for post in posts %}
+            {{ post }}
+        {% endfor %}
     </article>
-    <p>Hi there!</p>
-    <p>Blah blah blah......</p>
 </body>
 </html>
